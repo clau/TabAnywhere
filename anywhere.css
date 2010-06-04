@@ -1,0 +1,171 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: url(http://a3.twimg.com/a/1275598481/images/bg-clouds.png) repeat-x rgb(192, 222, 237);
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -120px;
+}
+
+#twitter {
+	background-color: white;
+	width: 515px;
+	padding: 30px;
+	margin: 25px auto;
+	display: none;
+}
+
+#timeline {
+	width: 510px;
+	list-style: none;
+	overflow-y: auto;
+	border-top: 1px solid #ccc;
+	padding-left: 0;
+}
+
+#timeline li {
+	position: relative;
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0px 8px;
+}
+
+#timeline .thumbnail, #composer .thumbnail {
+	display: block;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.thumbnail img {
+	width: 48px;
+	height: 48px;
+}
+
+#timeline .entry {
+	display: block;
+	margin-left: 56px;
+	min-height: 48px;
+	overflow: hidden;
+}
+
+#timeline .thumbnail a, #timeline .entry a {
+	text-decoration: none;
+}
+
+#timeline .entry a {
+	color: #2276BB;
+}
+
+#timeline .entry a:hover {
+	text-decoration: underline;
+}
+
+#timeline .entry-date {
+	padding-top: 2px;
+	color: #999;
+	display: block;
+	font-size: 12px;
+}
+
+#timeline .entry-content {
+	word-wrap: break-word;
+}
+
+#composer {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+#composer .thumbnail  {
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+.comment-area {
+	border: 1px solid #AAA;
+	font-size: 14px;
+	overflow: hidden;
+	height: 50px;
+	padding: 6px;
+	padding-left: 53px;
+	width: 100%;
+}
+
+.comment-left-container {
+	padding-top: 9px;
+}
+
+.comment-io {
+	text-transform: uppercase;
+	color: #2276BB;
+	cursor: pointer;
+}
+
+.comment-username {
+	text-transform: uppercase;
+	color: #999;
+	padding-left: 6px;
+}
+
+.comment-counter {
+	float: left;
+	font-size: 14px;
+	color: #CCC;
+	padding: 4px 12px;
+}
+
+.comment-right-container {
+	float: right;
+	padding-top: 5px;
+}
+
+#more {
+	width: 480px;
+	text-align: center;
+}
+
+.comment-button {
+	zoom:1;
+	background:#ddd url(http://s.twimg.com/a/1269020849/images/buttons/bg-btn.gif) repeat-x scroll 0 0;
+	background-position:0 -200px;
+	color:#333;
+	cursor:pointer;
+	text-shadow:1px 1px 0 #fff;
+	border-color:#ddd #ddd #ccc;
+	border-style:solid;
+	border-width:1px;
+	text-decoration:none;
+	padding:5px 15px 6px;
+	line-height:13px;
+	font-size:14px;
+	font-family:"helvetica neue",arial,sans-serif;
+	display:inline-block;
+	_display:inline;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+.comment-button:hover {
+	text-decoration:none;
+	border-color:#999 #999 #888;
+	color:#000;
+	outline:none;
+}
+
+.comment-button-disabled {
+	opacity:.6;
+	filter:alpha(opacity=60);
+	background-image:none;
+}
