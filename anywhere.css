@@ -3,6 +3,18 @@ body {
 	background: url(http://a3.twimg.com/a/1275598481/images/bg-clouds.png) repeat-x rgb(192, 222, 237);
 }
 
+#banner {
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	z-index: 999;
+	text-align: center;
+	background-color: white;
+	line-height: 30px;
+}
+
 h1 {
 	font-size: 20px;
 	font-weight: normal;
@@ -22,7 +34,7 @@ h1 {
 	background-color: white;
 	width: 515px;
 	padding: 30px;
-	margin: 25px auto;
+	margin: 50px auto;
 	display: none;
 }
 
